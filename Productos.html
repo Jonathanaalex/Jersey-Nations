@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JerseyNations - Productos</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Tu propio CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="imagenes/Captura de pantalla 2025-03-20 165603.png" alt="JerseyNations" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="Productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Productos -->
+  <section class="py-5">
+    <div class="container">
+      <h1 class="mb-4">Nuestras Playeras</h1>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4 mb-3">
+          <label for="category" class="form-label">Categoría:</label>
+          <select id="category" class="form-select">
+            <option>Todas</option>
+            <option>Deportivas</option>
+            <option>Casuales</option>
+            <option>Edición Limitada</option>
+          </select>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <label for="size" class="form-label">Talla:</label>
+          <select id="size" class="form-select">
+            <option>Todas</option>
+            <option>Chica</option>
+            <option>Mediana</option>
+            <option>Grande</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Atlético Madrid Visita -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="imagenes/atm.avif" class="card-img-top" alt="Atlético Madrid Visita">
+            <div class="card-body">
+              <h5 class="card-title">Playera Atlético Madrid Visita</h5>
+              <p class="card-text">$499.00 MXN</p>
+              <a href="producto.html?id=atm" class="btn btn-primary">Ver más</a>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Inter Tercera -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="imagenes/innter.avif" class="card-img-top" alt="Inter Tercera Equipación">
+            <div class="card-body">
+              <h5 class="card-title">Playera Inter Tercera Equipación</h5>
+              <p class="card-text">$599.00 MXN</p>
+              <a href="producto.html?id=inter" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Liverpool Local -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="imagenes/lfc.avif" class="card-img-top" alt="Liverpool Local">
+            <div class="card-body">
+              <h5 class="card-title">Playera Liverpool Local</h5>
+              <p class="card-text">$799.00 MXN</p>
+               <a href="producto.html?id=lfc" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PSG Local -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="imagenes/psg.avif" class="card-img-top" alt="PSG Local">
+            <div class="card-body">
+              <h5 class="card-title">Playera PSG Local</h5>
+              <p class="card-text">$549.00 MXN</p>
+               <a href="producto.html?id=psg-local" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PSG Visitante -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="imagenes/psg1.avif "class=card-img-top" alt="PSG Visitante">
+            <div class="card-body">
+              <h5 class="card-title">Playera PSG Visitante</h5>
+              <p class="card-text">$649.00 MXN</p>
+              <a href="producto.html?id=psg-visitante" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Barcelona Local -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="imagenes/fcb.avif" class="card-img-top" alt="FC Barcelona Local">
+            <div class="card-body">
+              <h5 class="card-title">Playera FC Barcelona Local</h5>
+              <p class="card-text">$899.00 MXN</p>
+              <a href="producto.html?id=fcb" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real Madrid Local -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="imagenes/Rmd.avif" class="card-img-top" alt="Real Madrid Local">
+            <div class="card-body">
+              <h5 class="card-title">Playera Real Madrid Local</h5>
+              <p class="card-text">$849.00 MXN</p>
+              <a href="producto.html?id=rmd" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Manchester United Local -->
+<div class="col-sm-6 col-lg-4">
+  <div class="card h-100 text-center">
+    <img src="imagenes/arsn.avif" class="card-img-top" alt="Manchester United Local">
+    <div class="card-body">
+      <h5 class="card-title">Playera Manchester United Local</h5>
+      <p class="card-text">$749.00 MXN</p>
+      <a href="producto.html?id=arsn" class="btn btn-primary">Ver más</a>
+    </div>
+  </div>
+</div>
+</div> <!-- Fin de .row -->
+
+</div> <!-- Fin de .container -->
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-3 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <h5>JerseyNations</h5>
+          <p>La mejor calidad en playeras deportivas y casuales.</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Enlaces</h5>
+          <ul class="list-unstyled">
+            <li><a href="/ProyectoFramework/index.html" class="text-white">Inicio</a></li>
+            <li><a href="/ProyectoFramework/Productos.html" class="text-white">Productos</a></li>
+            <li><a href="/ProyectoFramework/acerca.html" class="text-white">Acerca de</a></li>
+            <li><a href="/ProyectoFramework/blog.html" class="text-white">Blog</a></li>
+            <li><a href="/ProyectoFramework/contacto.html" class="text-white">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Contacto</h5>
+          <p>contacto@JerseyNations.com</p>
+          <p>+52 55 1234 5678</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Redes Sociales</h5>
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <hr class="border-secondary">
+      <div class="text-center">
+        <p class="mb-0">&copy; 2024 JerseyNations. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+<!-- Scripts de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+ <script src="productos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
